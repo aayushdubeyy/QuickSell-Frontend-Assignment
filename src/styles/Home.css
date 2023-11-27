@@ -1,0 +1,7 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  height: 100svh;
+  /* background-color: antiquewhite; */
+  background-color: white;
+}

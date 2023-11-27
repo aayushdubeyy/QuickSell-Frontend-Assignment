@@ -1,0 +1,39 @@
+.overlay-content {
+    position: absolute;
+    background-color: white;
+    z-index: 100;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border: 1px solid #1b1b1b1b;
+    box-shadow: #1b1b1b1b 0px 0px 20px 4px, #1b1b1b1b 0px 0px 0px 1px;
+    border-radius: 5px;
+    padding: 0.7rem 1rem;
+    margin-top: 0.7rem;
+    padding-bottom: 0.9rem;
+}
+
+.display-option-container {
+    color: #1b1b1bb5;
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--family-body);
+    align-items: center;
+    font-weight: 500;
+}
+
+.display-option-container>label {
+    font-size: 0.8rem;
+}
+
+.display-option-container>select {
+    border: 1px solid #1b1b1b1b;
+    border-radius: 4px;
+    padding: 0.2rem 1.5rem 0.2rem 0.2rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.display-option-container>select>option {
+    text-transform: capitalize;
+} 

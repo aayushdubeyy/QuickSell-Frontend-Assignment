@@ -1,0 +1,27 @@
+.header {
+  /* background-color: red; */
+  position: relative;
+  padding: 1rem 1.5rem;
+}
+.button{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.2rem 0.4rem;
+
+  background-color: white;
+  border: 1px solid #1b1b1b1b;
+  border-radius: 4px;
+  /* box-shadow: #1b1b1b1b 0px 0px 4px 2px, #1b1b1b1b 0px 0px 0px 1px; */
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+
+  font-size: var(--font-body);
+  font-family: var(--family-body);
+  font-weight: 500;
+}
+.button > img {
+  display: flex;
+  align-items: center;
+  height: 1.2rem;
+}
