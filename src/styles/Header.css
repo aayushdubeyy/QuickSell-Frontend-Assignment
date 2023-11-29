@@ -4,6 +4,7 @@
   padding: 1rem 1.5rem;
 }
 .button{
+  cursor: pointer;
   display: flex;
   justify-content: space-between;
   align-items: center;
